@@ -1,0 +1,112 @@
+.section6__title{
+    color: #fff;
+    font-size: 30px;
+    margin: 10px 0px 0px 180px;
+}
+
+.section6__text{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-bottom: 48px;
+}
+
+.section6__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 30px;
+    margin-left: -60px;
+}
+
+.section6__items{
+    background-color: #3b3b3b;
+    padding: 10px 30px 30px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+@media (max-width:834px) {
+
+    .section6__wrapper{
+        overflow: hidden;
+    }
+    
+    .section6__title{
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 0px 0px 10px;
+    }
+    
+    .section6__text{
+        color: #fff;
+        font-size: 8px;
+        margin-left: 10px;
+        margin-bottom: 28px;
+    }
+    
+    .section6__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .section6__items{
+        background-color: #3b3b3b;
+        padding: 0px 20px 20px 10px;
+        border-radius: 20px;
+        color: #fff;
+        width: 220px;
+    }
+
+    .section6__items-img{
+        width: 40px;
+        height: 40px;
+        margin-left: -30px;
+        margin-bottom: 190px;
+    }
+}
+
+
+@media (max-width:375px) {
+
+    .section6__wrapper{
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .section6__title{
+        color: #fff;
+        font-size: 30px;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .section6__text{
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 48px;
+    }
+    
+    .section6__item{
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        width: 375px;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        
+    }
+    
+    .section6__items{
+        background-color: #3b3b3b;
+        padding: 0px 20px 20px 10px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    
+}
