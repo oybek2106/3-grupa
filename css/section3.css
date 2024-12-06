@@ -1,1 +1,126 @@
+<<<<<<< HEAD
 /*# sourceMappingURL=section3.css.map */
+=======
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.category {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.art {
+  background-image: url(..//../Photo\ &\ Icon.png);
+  width: 140px;
+  height: 140px;
+}
+
+.collectibles {
+  background-image: url(..//../Photo\ &\ Icon\ \(1\).png);
+  width: 140px;
+  height: 140px;
+}
+
+.music {
+  background-image: url(..//../Photo\ &\ Icon\ \(2\).png);
+  width: 140px;
+  height: 140px;
+}
+
+.photography {
+  background-image: url(..//../Photo\ &\ Icon\ \(3\).png);
+  width: 140px;
+  height: 140px;
+}
+
+.video {
+  width: 140px;
+  height: 140px;
+  background-image: url(..//../Photo\ &\ Icon\ \(4\).png);
+}
+
+.utility {
+  background-image: url(..//../Photo\ &\ Icon\ \(5\).png);
+  width: 140px;
+  height: 140px;
+}
+
+.sport {
+  background-image: url(..//../Photo\ &\ Icon\ \(6\).png);
+  width: 140px;
+  height: 140px;
+}
+
+.virtual-worlds {
+  background-image: url(../../Category\ Icon.png);
+  width: 140px;
+  height: 140px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .categories {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+  }
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
+  .category {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=section3.css.map */
+>>>>>>> ef95ed4f4c4612f823d6a9a3a392a14a4307ca5a
