@@ -1,0 +1,55 @@
+.header {
+    background-color: #2b2b2b;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header__wrapper {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+
+}
+.header__logo {
+    width: 32px;
+    height: 32px;
+}
+.header__logo__text {
+    margin-left: 10px;
+}
+.header__list {
+   list-style: none;
+   display: flex;
+   margin-left: 300px;
+   gap: 30px;
+}
+.header__item {
+}
+.header__btn__box {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.header__box__text {
+}
+.haeder__img__box {
+    margin-left: 20px;
+    margin-right: 5px;
+    
+}
+.header__btn {
+    margin-left: 20px;
+    width: 120px;
+    height:50px;
+    border: 1px solid  #A259FF;
+     background-color:#A259FF ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

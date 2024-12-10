@@ -1,1 +1,106 @@
-/*# sourceMappingURL=section2.css.map */
+.section2 {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.section2__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.section2__info1 {
+  max-width: 700px;
+}
+
+.sect2__title {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  padding-bottom: 10px;
+}
+
+.sect2__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.section2__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 19px 50px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.sect2__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.sect2_list__itm {
+  max-width: 240px;
+  padding-bottom: 30px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sect2_itm__title {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: center;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  padding-bottom: 5px;
+}
+
+.sect2_text__span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: right;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #858584;
+}
+
+.sect2_itm__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.sect2__ava {
+  padding-top: 20px;
+}/*# sourceMappingURL=section2.css.map */
